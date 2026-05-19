@@ -145,8 +145,8 @@ export function FinanceProvider({ children }) {
         expense: monthlyTotals.expense,
         balance,
         dispatch,
-        addTransaction,    // Nova função cloud
-        deleteTransaction, // Nova função cloud
+        addTransaction,    
+        deleteTransaction, 
       }}
     >
       {children}
